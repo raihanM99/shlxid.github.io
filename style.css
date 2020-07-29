@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+.shlx-id {
+  font-family: 'Great Vibes', cursive;
+}
+
+.fontStyle {
+  font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  margin: 2px;
+}
+
+.card img {
+  padding: 5px;  
+}
+
+.card-text {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+}
+
+.title-product {
+  margin: 0 auto;
+  padding: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.tombol {
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.bgImg {
+  background-image: url('images/phaedra-botanicals-2DQ1GAGwSvY-unsplash-medium.jpg');
+  background-size: cover;
+}
+
+.icon1, .icon2 {
+  text-align: center;
+}
+
+.icon1 span i {
+  margin-top: 100px;
+  padding: 5px;
+  color: whitesmoke;
+}
+
+.icon2 span i {
+  margin-top: 50px;
+  padding: 5px;
+  color: whitesmoke;
+}
+
+.icon1 span p, .icon2 span p {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 300px;
+  padding: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .card img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2;
+  }
+
+  .card-title {
+    font-size: 25px;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  div.card-body a {
+    font-size: 20px;
+  }
+
+  .tombol {
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .card img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  div.card-body a {
+    font-size: 16px;
+  }
+
+  .tombol {
+    font-size: 20px;
+  }
+
+  .icon1 span i, .icon2 span i {
+    font-size: 70px;
+  }
+
+  .icon1 span p, .icon2 span p {
+    width: 50%;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
